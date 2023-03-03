@@ -231,13 +231,13 @@
 ;PCODE: $00000052 VOL: 0
 ; 0000 0088       {
 ; 0000 0089       // Place your code here
-; 0000 008A       DDRA=0x01;
+; 0000 008A       PORTA=0x01;
 ;PCODE: $00000053 VOL: 0
 ;PCODE: $00000054 VOL: 0
 ; 0000 008B       delay_ms(500);
 ;PCODE: $00000055 VOL: 0
 ;PCODE: $00000056 VOL: 0
-; 0000 008C       DDRA=0x00;
+; 0000 008C       PORTA=0x00;
 ;PCODE: $00000057 VOL: 0
 ;PCODE: $00000058 VOL: 0
 ; 0000 008D       delay_ms(500);

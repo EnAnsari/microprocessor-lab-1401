@@ -135,9 +135,9 @@ TWCR=(0<<TWEA) | (0<<TWSTA) | (0<<TWSTO) | (0<<TWEN) | (0<<TWIE);
 while (1)
       {
       // Place your code here
-      DDRA=0x01;
+      PORTA=0x01;
       delay_ms(500);
-      DDRA=0x00;
+      PORTA=0x00;
       delay_ms(500);
       }
 }

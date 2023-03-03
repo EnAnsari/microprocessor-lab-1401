@@ -1353,16 +1353,16 @@ _main:
 _0x3:
 ; 0000 0088       {
 ; 0000 0089       // Place your code here
-; 0000 008A       DDRA=0x01;
+; 0000 008A       PORTA=0x01;
 	LDI  R30,LOW(1)
-	OUT  0x1A,R30
+	OUT  0x1B,R30
 ; 0000 008B       delay_ms(500);
 	LDI  R26,LOW(500)
 	LDI  R27,HIGH(500)
 	CALL _delay_ms
-; 0000 008C       DDRA=0x00;
+; 0000 008C       PORTA=0x00;
 	LDI  R30,LOW(0)
-	OUT  0x1A,R30
+	OUT  0x1B,R30
 ; 0000 008D       delay_ms(500);
 	LDI  R26,LOW(500)
 	LDI  R27,HIGH(500)
