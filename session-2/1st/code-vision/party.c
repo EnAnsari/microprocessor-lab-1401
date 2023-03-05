@@ -3,8 +3,7 @@
 #include <io.h>
 #include <math.h>
 
-void main(void)
-{
+void main(void) {
     int i, a, b, flag = 0;
     DDRA = DDRB = 0xFF;
     while (1) {
